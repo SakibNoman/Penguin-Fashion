@@ -5,10 +5,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Welcome to Penguin Fashion!!!</h1>
+    <!-- header section started -->
+    <header class="header-section">
+        <div class="container pt-4">
+            <!-- logo and navigation row started -->
+            <div class="row">
+                <div class="col-md">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                            <a class="col-md-3 col-6 navbar-brand" href="#"><img class="img-fluid" src="images/logo-Icon/logo.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav offset-5">
+                                    <a class="nav-link active ms-3" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link ms-3" href="#">Product</a>
+                                    <a class="nav-link ms-3" href="#">About us</a>
+                                    <a class="nav-link ms-3" href="#">Contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- logo and navigation row ended -->
+            <!-- header welcome section started -->
+            <div class="row mt-4">
+                <div class="col-md-6 d-flex align-items-start flex-column justify-content-center">
+                    <h1><span class="orange-text-color">BE THE PENGUINS</span> <br> OF WINTER</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit qui numquam fugit!</p>
+                    <button class="btn olive-button-color"> <img class="w-25" src="images/logo-Icon/cartIcon.png" alt=""> BUY NOW</button>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="images/product-image/profileImage.png" alt="">
+                </div>
+            </div>
+            <!-- header welcome section ended -->
+        </div>
+    </header>
+    <!-- header section ended -->
+    <!-- main section started -->
+    <main>
+        <div class="container mt-5">
+            <!-- women jacket div started -->
+            <h2 class="mb-5">WOMAN JACKET</h2>
+            <div class="women-div">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow border-0 custom-card">
+                            <div class="image-background mt-3 d-flex justify-content-center">
+                                <img class="img-fluid" src="images/product-image/womenOne.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Yellow Coat Jacket</h3>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of theprinting and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 bg-white d-md-block d-lg-flex d-flex justify-content-between ">
+                                <h4 class="orange-text-color">$234</h4>
+                                <button class="btn olive-button-color"> <img class="w-25" src="images/logo-Icon/cartIcon.png" alt=""> BUY NOW</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow border-0 custom-card">
+                            <div class="image-background mt-3 d-flex justify-content-center">
+                                <img class="img-fluid" src="images/product-image/womenTwo.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Ladies Jacket</h3>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of theprinting and typesetting industry</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 bg-white d-md-block d-lg-flex d-flex justify-content-between">
+                                <h4 class="orange-text-color">$234</h4>
+                                <button class="btn olive-button-color"> <img class="w-25" src="images/logo-Icon/cartIcon.png" alt=""> BUY NOW</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow border-0 custom-card">
+                            <div class="image-background mt-3 d-flex justify-content-center">
+                                <img class="img-fluid" src="images/product-image/womenThree.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Women Leather Jacket</h3>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of theprinting and typesetting industry</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 bg-white d-md-block d-lg-flex d-flex justify-content-between">
+                                <h4 class="orange-text-color">$234</h4>
+                                <button class="btn olive-button-color"> <img class="w-25" src="images/logo-Icon/cartIcon.png" alt=""> BUY NOW</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- women jacket div ended -->
+            <!-- men jacket div started -->
+            <div class="men-div  mt-5">
+            <h2 class="mb-5">MAN JACKET</h2>
+            <div class="women-div">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 mb-5 shadow border-0 custom-card">
+                            <div class="image-background mt-3 d-flex justify-content-center">
+                                <img class="img-fluid" src="images/product-image/menOne.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Snowboard Jacket Mens</h3>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of theprinting and typesetting industry.</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 d-md-block d-lg-flex d-flex justify-content-between">
+                                <h4 class="orange-text-color">$234</h4>
+                                <button class="btn olive-button-color"> <img class="w-25" src="images/logo-Icon/cartIcon.png" alt=""> BUY NOW</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow border-0 custom-card">
+                            <div class="image-background mt-3 d-flex justify-content-center">
+                                <img class="img-fluid" src="images/product-image/menTwo.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Men Leather Jacket</h3>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of theprinting and typesetting industry</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-0 d-md-block d-lg-flex d-flex justify-content-between">
+                                <h4 class="orange-text-color">$234</h4>
+                                <button class="btn olive-button-color"> <img class="w-25" src="images/logo-Icon/cartIcon.png" alt=""> BUY NOW</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow border-0 custom-card">
+                            <div class="image-background mt-3 d-flex justify-content-center">
+                                <img class="img-fluid" src="images/product-image/menThree.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Men Casual Jacket</h3>
+                                <p class="card-text">Lorem Ipsum is simply dummy text of theprinting and typesetting industry</p>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent d-md-block d-lg-flex d-flex justify-content-between">
+                                <h4 class="orange-text-color">$234</h4>
+                                <button class="btn olive-button-color"> <img class="w-25" src="images/logo-Icon/cartIcon.png" alt=""> BUY NOW</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- men jacket div ended -->
+            </div>
+
+        </div>
+
+    </main>
+    <!-- main section ended -->
+
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
